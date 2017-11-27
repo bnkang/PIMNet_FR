@@ -3,8 +3,10 @@ Created by [Bong-Nam Kang](https://sites.google.com/view/bnkang/home) and [Daiji
 
 Porject page: [https://sites.google.com/view/bnkang/research/face-recognition-using-deep-neural-networks]
 
+
 ### Overview
 We propose a new face verification method that uses multiple deep convolutional neural networks (DCNNs) and a deep ensemble, that extracts two types of low dimensional but discriminative and high-level abstracted features from each DCNN, then combines them as a descriptor for face verification. Our DCNNs are built from stacked multi-scale convolutional layer blocks to present multi-scale abstraction. To train our DCNNs, we use different resolutions of triplets that consist of reference images, positive images, and negative images, and triplet-based loss function that maximize the ratio of distances between negative pairs and positive pairs and minimize the absolute distances between positive face images. A deep ensemble is generated from features extracted by each DCNN, and used as a descriptor to train the joint Bayesian learning and its transfer learning method. On the LFW, although we use only 198,018 images and only four different types of networks, the proposed method with the joint Bayesian learning and its transfer learning method achieved 98.33% accuracy. In addition to further increase the accuracy, we combine the proposed method and high dimensional LBP based joint Bayesian method, and achieved 99.08% accuracy on the LFW. Therefore, the proposed method helps to improve the accuracy of face verification when training data is insufficient to train DCNNs.
+
 
 ### Citation
 
@@ -21,6 +23,7 @@ If you're using this code in a publication, please cite our papers.
   }
 ```
 
+
 ### Overall
 
 Overall procedure of the proposed method. To train deep neural network, we use triplets of faces. With triplets of faces, we train our DCNN with the proposed loss functions to obtain discriminative features. We also train 4 different DCNNs per different resolutions. After training, we extract features from each DCNN model. For test, given face images, these images are passed to multiple DCNNs and then we extract features from each DCNN models. With these extracted features, we classify whether these two face images are same or not using Joint Bayesian Classifier.
@@ -30,9 +33,11 @@ Hybridization with high-dimensional LBP based joint Bayesian method in the manne
     
    <img src="https://github.com/bnkang/PIMNet_FR/blob/master/resource/research_fr_fusion.jpg?raw=true" width=480>
 
+
 ### Performance
 Comparison of the number of DCNNs, the number of images, the dimensionality of feature, and the accuracy of the proposed method with the state-of-the-art on the LFW.
 <img src="https://github.com/bnkang/PIMNet_FR/blob/master/resource/research_fr_result_lfw.png?raw=true" width=640>
+
 
 ### Related Papers
 
@@ -42,15 +47,20 @@ Comparison of the number of DCNNs, the number of images, the dimensionality of f
 4. Bong-Nam Kang, Daijin Kim, "Deep Convolution Neural Network using Triplet of Faces for Face Recognition in the Wild," The 16th International Conference on Control, Automation and Systems (ICCAS 2016), 2016.
 5. Bong-Nam Kang, Daijin Kim, "Deep Convolution Neural Network with Stacks of Multi-Scale Convolutional Layer Block using Triplet of Faces for Face Recognition in the Wild," The 2016 IEEE International Conference on System, Man, and Cybernetics (SMC 2016), 2016.
 
+
 ### Code
 
 Download the executalable binary file: [FR_PIMNet_v2.0.zip](http://imlab.postech.ac.kr/software/FR_PIMNET_v2.0.zip)
+
 This bianray file is only working on the MS Windows operating system.
+
 
 ### Licence
 
 This software is for research purpose only.
+
 Check LICENSE file for details.
+
 
 ### Acknowledgements
 
