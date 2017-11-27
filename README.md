@@ -9,7 +9,7 @@ We propose a new face verification method that uses multiple deep convolutional 
 ### Citation
 
 If you're using this code in a publication, please cite our papers.
-     
+```     
   @inproceedings{8014823, 
     author={B. N. Kang and Y. Kim and D. Kim}, 
     booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
@@ -19,8 +19,13 @@ If you're using this code in a publication, please cite our papers.
     doi={10.1109/CVPRW.2017.89}, 
     month={July}
   }
+```
+
+### Overall
+
 
 ### Licence
 
 This software is for research purpose only.
 Check LICENSE file for details.
+
