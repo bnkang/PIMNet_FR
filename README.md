@@ -8,13 +8,13 @@ We propose a new face verification method that uses multiple deep convolutional 
 
 ### Citation
 If you're using this code in a publication, please cite our papers.
+  
   @INPROCEEDINGS{8014823, 
     author={B. N. Kang and Y. Kim and D. Kim}, 
     booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
     title={Deep Convolutional Neural Network Using Triplets of Faces, Deep Ensemble, and Score-Level Fusion for Face Recognition}, 
     year={2017}, 
     pages={611-618}, 
-    keywords={face recognition;feature extraction;feedforward neural nets;learning (artificial intelligence);sensor fusion;DCNN;deep convolutional neural networks;deep ensemble;descriptor;face recognition;face verification method;feature extraction;joint Bayesian learning;multiscale abstraction;negative images;positive images;reference images;score-level fusion;stacked multiscale convolutional layer blocks;transfer learning method;triplet-based loss function;Bayes methods;Convolution;Databases;Feature extraction;IP networks;Image resolution;Training}, 
-  doi={10.1109/CVPRW.2017.89}, 
-  month={July}
+    doi={10.1109/CVPRW.2017.89}, 
+    month={July}
   }
