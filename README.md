@@ -10,7 +10,7 @@ We propose a new face verification method that uses multiple deep convolutional 
 
 If you're using this code in a publication, please cite our papers.
      
-  @INPROCEEDINGS{8014823, 
+  @inproceedings{8014823, 
     author={B. N. Kang and Y. Kim and D. Kim}, 
     booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
     title={Deep Convolutional Neural Network Using Triplets of Faces, Deep Ensemble, and Score-Level Fusion for Face Recognition}, 
