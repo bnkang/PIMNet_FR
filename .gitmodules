@@ -1,0 +1,4 @@
+[submodule "caffe-windows-for-fr"]
+	path = caffe-windows-for-fr
+	url = https://github.com/bnkang/caffe-windows-for-fr.git
+	branch = master
